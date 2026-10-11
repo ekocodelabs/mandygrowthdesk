@@ -58,7 +58,10 @@ export default function GrowthContentLayout() {
   ];
 
   return (
-    <section className="w-full py-32 bg-neutral-950 text-white px-4 md:px-8 border-t border-neutral-900 selection:bg-emerald-400 selection:text-black">
+    <section
+      id="case-studies"
+      className="w-full py-32 bg-neutral-950 text-white px-4 md:px-8 border-t border-neutral-900 selection:bg-emerald-400 selection:text-black"
+    >
       <div className="max-w-7xl mx-auto">
         {/* Editorial Content Header Block */}
         <div className="mb-20">
