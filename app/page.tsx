@@ -19,7 +19,7 @@ export default function Home() {
       <ServicesLayout />
       <GrowthCalculatorLayout />
       <GrowthContentLayout />
-      <CasestudyLayout />
+      {/* <CasestudyLayout /> */}
       <MultiLeadFormLayout />
       <ContactLayout />
       <FooterLayout />
