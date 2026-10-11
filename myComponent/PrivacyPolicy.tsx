@@ -17,7 +17,7 @@ export default function PrivacyPolicy() {
         {/* Left Column: Interactive Component Sub-Navigation Tab Matrix */}
         <div className="lg:col-span-4 space-y-6 lg:sticky lg:top-28">
           <div>
-            <span className="text-xs font-bold tracking-widest uppercase text-amber-500 bg-amber-50 px-3 py-1 rounded-full">
+            <span className="text-xs font-bold tracking-widest uppercase text-emerald-500 bg-emerald-50 px-3 py-1 rounded-full">
               Legal Framework
             </span>
             <h2 className="text-3xl md:text-4xl font-black tracking-tight mt-3 text-neutral-900">
@@ -55,11 +55,11 @@ export default function PrivacyPolicy() {
         </div>
 
         {/* Right Column: High-End Typography Presentation Area */}
-        <div className="lg:col-span-8 bg-white border border-neutral-200/80 p-8 md:p-12 rounded-3xl shadow-sm min-h-[500px]">
+        <div className="lg:col-span-8 bg-white border border-neutral-200/80 p-8 md:p-12 rounded-3xl shadow-sm min-h-125">
           {activeTab === "privacy" && (
             <div className="space-y-6 animate-in fade-in duration-300">
               <div className="border-b border-neutral-100 pb-4">
-                <div className="flex items-center gap-2 text-amber-500 text-sm font-bold uppercase tracking-wider">
+                <div className="flex items-center gap-2 text-emerald-500 text-sm font-bold uppercase tracking-wider">
                   <FiLock /> Protocol Document
                 </div>
                 <h3 className="text-2xl font-black text-neutral-900 tracking-tight mt-1">
@@ -110,7 +110,7 @@ export default function PrivacyPolicy() {
           {activeTab === "terms" && (
             <div className="space-y-6 animate-in fade-in duration-300">
               <div className="border-b border-neutral-100 pb-4">
-                <div className="flex items-center gap-2 text-amber-500 text-sm font-bold uppercase tracking-wider">
+                <div className="flex items-center gap-2 text-emerald-500 text-sm font-bold uppercase tracking-wider">
                   <FiAlertCircle /> Agreement Framework
                 </div>
                 <h3 className="text-2xl font-black text-neutral-900 tracking-tight mt-1">

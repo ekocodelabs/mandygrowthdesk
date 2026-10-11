@@ -49,7 +49,7 @@ export default function CasestudyLayout() {
         {/* Section Heading Context */}
         <div className="flex flex-col md:flex-row md:items-end justify-between mb-16 gap-6">
           <div className="max-w-xl">
-            <span className="text-xs font-bold tracking-widest uppercase text-amber-600">
+            <span className="text-xs font-bold tracking-widest uppercase text-emerald-600">
               Proven Results
             </span>
             <h2 className="text-4xl md:text-5xl font-black text-neutral-900 tracking-tight mt-2">
@@ -119,7 +119,7 @@ export default function CasestudyLayout() {
                     ))}
                   </div>
 
-                  <button className="text-sm font-bold text-neutral-900 flex items-center gap-1 group-hover:text-amber-500 transition-colors">
+                  <button className="text-sm font-bold text-neutral-900 flex items-center gap-1 group-hover:text-emerald-500 transition-colors">
                     View Blueprint
                     <FiArrowUpRight className="group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform" />
                   </button>

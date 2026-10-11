@@ -33,8 +33,8 @@ export default function ContactChannels() {
     {
       name: "WhatsApp",
       label: "Instant Strategy Link",
-      value: "+234 800 000 0000",
-      href: "https://wa.me",
+      value: "+234 818 535 0499",
+      href: "https://wa.me/2348185350499",
       icon: <FiMessageCircle className="text-xl text-emerald-600" />,
       bgClass: "hover:border-emerald-500/40 hover:bg-emerald-50/10",
     },
@@ -73,7 +73,7 @@ export default function ContactChannels() {
         {/* Layout Heading Grid */}
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start mb-16">
           <div className="lg:col-span-6 space-y-4">
-            <span className="text-xs font-bold tracking-widest uppercase text-amber-600">
+            <span className="text-xs font-bold tracking-widest uppercase text-emerald-600">
               Establish Connection
             </span>
             <h2 className="text-4xl md:text-5xl font-black text-neutral-900 tracking-tight">
@@ -104,7 +104,7 @@ export default function ContactChannels() {
                 <div className="p-3 bg-white rounded-xl shadow-sm border border-neutral-100">
                   {channel.icon}
                 </div>
-                <FiArrowUpRight className="text-neutral-300 group-hover:text-amber-500 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-all text-xl" />
+                <FiArrowUpRight className="text-neutral-300 group-hover:text-emerald-500 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-all text-xl" />
               </div>
 
               {/* Card Lower Text Elements Container */}

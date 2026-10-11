@@ -55,12 +55,12 @@ export default function GrowthCalculator() {
         {/* Left Column: Context Strategy Header & Interactive Controls */}
         <div className="lg:col-span-5 space-y-8">
           <div>
-            <span className="text-xs font-bold tracking-widest uppercase text-amber-500 bg-amber-50 px-3 py-1 rounded-full">
+            <span className="text-xs font-bold tracking-widest uppercase text-emerald-500 bg-emerald-50 px-3 py-1 rounded-full">
               Growth Simulator
             </span>
             <h2 className="text-4xl md:text-5xl font-extrabold tracking-tight mt-3 text-neutral-900">
               Quantify your{" "}
-              <span className="underline decoration-amber-400 decoration-wavy">
+              <span className="underline decoration-emerald-400 decoration-wavy">
                 untapped
               </span>{" "}
               pipeline.
@@ -77,7 +77,7 @@ export default function GrowthCalculator() {
             <div className="space-y-2">
               <div className="flex justify-between text-sm font-semibold">
                 <label className="text-neutral-700">Monthly Traffic</label>
-                <span className="text-amber-600 font-mono">
+                <span className="text-emerald-600 font-mono">
                   {metrics.currentTraffic.toLocaleString()} visitors
                 </span>
               </div>
@@ -93,7 +93,7 @@ export default function GrowthCalculator() {
                     currentTraffic: Number(e.target.value),
                   })
                 }
-                className="w-full accent-amber-500 h-2 bg-neutral-200 rounded-lg cursor-pointer"
+                className="w-full accent-emerald-500 h-2 bg-neutral-200 rounded-lg cursor-pointer"
               />
             </div>
 
@@ -101,7 +101,7 @@ export default function GrowthCalculator() {
             <div className="space-y-2">
               <div className="flex justify-between text-sm font-semibold">
                 <label className="text-neutral-700">Conversion Rate</label>
-                <span className="text-amber-600 font-mono">
+                <span className="text-emerald-600 font-mono">
                   {metrics.conversionRate}%
                 </span>
               </div>
@@ -117,7 +117,7 @@ export default function GrowthCalculator() {
                     conversionRate: Number(e.target.value),
                   })
                 }
-                className="w-full accent-amber-500 h-2 bg-neutral-200 rounded-lg cursor-pointer"
+                className="w-full accent-emerald-500 h-2 bg-neutral-200 rounded-lg cursor-pointer"
               />
             </div>
 
@@ -127,7 +127,7 @@ export default function GrowthCalculator() {
                 <label className="text-neutral-700">
                   Average Order Value / ACV
                 </label>
-                <span className="text-amber-600 font-mono">
+                <span className="text-emerald-600 font-mono">
                   ${metrics.avgOrderValue}
                 </span>
               </div>
@@ -143,7 +143,7 @@ export default function GrowthCalculator() {
                     avgOrderValue: Number(e.target.value),
                   })
                 }
-                className="w-full accent-amber-500 h-2 bg-neutral-200 rounded-lg cursor-pointer"
+                className="w-full accent-emerald-500 h-2 bg-neutral-200 rounded-lg cursor-pointer"
               />
             </div>
           </div>
@@ -151,7 +151,7 @@ export default function GrowthCalculator() {
 
         {/* Right Column: Premium High-End Results Presentation Matrix */}
         <div className="lg:col-span-7 bg-neutral-900 rounded-3xl p-8 md:p-12 text-white shadow-2xl relative overflow-hidden group border border-neutral-800">
-          <div className="absolute top-0 right-0 w-64 h-64 bg-amber-400/10 rounded-full blur-3xl pointer-events-none transition-transform group-hover:scale-125 duration-700" />
+          <div className="absolute top-0 right-0 w-64 h-64 bg-emerald-400/10 rounded-full blur-3xl pointer-events-none transition-transform group-hover:scale-125 duration-700" />
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 relative z-10">
             <div className="p-6 bg-neutral-800/40 rounded-2xl border border-neutral-800">
@@ -167,7 +167,7 @@ export default function GrowthCalculator() {
             </div>
 
             <div className="p-6 bg-neutral-800/40 rounded-2xl border border-neutral-800">
-              <p className="text-xs font-semibold uppercase tracking-wider text-amber-400 flex items-center gap-2">
+              <p className="text-xs font-semibold uppercase tracking-wider text-emerald-400 flex items-center gap-2">
                 <FiTrendingUp /> Optimized Target Runway
               </p>
               <p className="text-3xl font-bold font-mono mt-2 text-white">
@@ -185,10 +185,10 @@ export default function GrowthCalculator() {
               Net Monthly Revenue Lift
             </p>
             <div className="flex flex-col md:flex-row md:items-baseline justify-between gap-4 mt-2">
-              <h3 className="text-5xl md:text-6xl font-black text-amber-400 font-mono tracking-tight drop-shadow-md">
+              <h3 className="text-5xl md:text-6xl font-black text-emerald-400 font-mono tracking-tight drop-shadow-md">
                 +${liftAmount.toLocaleString()}
               </h3>
-              <button className="flex items-center gap-2 bg-amber-400 text-black px-6 py-3 rounded-full font-bold text-sm tracking-wide shadow-lg hover:bg-amber-300 transition-all active:scale-95 group/btn">
+              <button className="flex items-center gap-2 bg-emerald-400 text-black px-6 py-3 rounded-full font-bold text-sm tracking-wide shadow-lg hover:bg-emerald-300 transition-all active:scale-95 group/btn">
                 Capture This Growth
                 <FiArrowRight className="group-hover/btn:translate-x-1 transition-transform" />
               </button>

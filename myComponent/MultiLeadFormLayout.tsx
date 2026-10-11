@@ -14,7 +14,7 @@ interface LeadFormData {
 
 export default function MultiLeadFormLayout() {
   // Replace this with your exact international format WhatsApp number (no spaces or '+' sign)
-  const WHATSAPP_NUMBER = "2348088449647";
+  const WHATSAPP_NUMBER = "2348185350499";
 
   // 2. State management structures for modern step progression tracking
   const [currentStep, setCurrentStep] = useState<number>(1);
@@ -90,13 +90,13 @@ _Sent via Growth Marketer Portal Pipeline._`;
         {/* Visual Progress Architecture Component Line */}
         <div className="absolute top-0 left-0 w-full bg-neutral-200 h-1.5">
           <div
-            className="bg-amber-500 h-1.5 transition-all duration-500 ease-out"
+            className="bg-emerald-500 h-1.5 transition-all duration-500 ease-out"
             style={{ width: `${(currentStep / totalSteps) * 100}%` }}
           />
         </div>
 
         <div className="mb-8 flex justify-between items-center">
-          <span className="text-xs font-bold uppercase tracking-widest text-amber-600">
+          <span className="text-xs font-bold uppercase tracking-widest text-emerald-600">
             Step {currentStep} of {totalSteps}
           </span>
           <span className="text-xs text-neutral-400 font-medium">
@@ -130,7 +130,7 @@ _Sent via Growth Marketer Portal Pipeline._`;
                   placeholder="John Doe"
                   value={formData.fullName}
                   onChange={(e) => updateField("fullName", e.target.value)}
-                  className="w-full px-4 py-3 bg-white border border-neutral-200 focus:border-amber-500 focus:ring-2 focus:ring-amber-400/20 rounded-xl outline-none transition-all text-sm"
+                  className="w-full px-4 py-3 bg-white border border-neutral-200 focus:border-emerald-500 focus:ring-2 focus:ring-emerald-400/20 rounded-xl outline-none transition-all text-sm"
                 />
               </div>
               <div className="space-y-1">
@@ -143,7 +143,7 @@ _Sent via Growth Marketer Portal Pipeline._`;
                   placeholder="Acme Metrics Inc."
                   value={formData.companyName}
                   onChange={(e) => updateField("companyName", e.target.value)}
-                  className="w-full px-4 py-3 bg-white border border-neutral-200 focus:border-amber-500 focus:ring-2 focus:ring-amber-400/20 rounded-xl outline-none transition-all text-sm"
+                  className="w-full px-4 py-3 bg-white border border-neutral-200 focus:border-emerald-500 focus:ring-2 focus:ring-emerald-400/20 rounded-xl outline-none transition-all text-sm"
                 />
               </div>
             </div>
@@ -169,7 +169,7 @@ _Sent via Growth Marketer Portal Pipeline._`;
                   onChange={(e) =>
                     updateField("currentRevenue", e.target.value)
                   }
-                  className="w-full px-4 py-3 bg-white border border-neutral-200 focus:border-amber-500 focus:ring-2 focus:ring-amber-400/20 rounded-xl outline-none transition-all text-sm cursor-pointer"
+                  className="w-full px-4 py-3 bg-white border border-neutral-200 focus:border-emerald-500 focus:ring-2 focus:ring-emerald-400/20 rounded-xl outline-none transition-all text-sm cursor-pointer"
                 >
                   <option value="">Select Scale Range...</option>
                   <option value="Under \$10k/mo">Under \$10k/mo</option>
@@ -187,7 +187,7 @@ _Sent via Growth Marketer Portal Pipeline._`;
                   onChange={(e) =>
                     updateField("primaryBottleneck", e.target.value)
                   }
-                  className="w-full px-4 py-3 bg-white border border-neutral-200 focus:border-amber-500 focus:ring-2 focus:ring-amber-400/20 rounded-xl outline-none transition-all text-sm cursor-pointer"
+                  className="w-full px-4 py-3 bg-white border border-neutral-200 focus:border-emerald-500 focus:ring-2 focus:ring-emerald-400/20 rounded-xl outline-none transition-all text-sm cursor-pointer"
                 >
                   <option value="">Select Biggest Issue...</option>
                   <option value="Low website conversion rate (CRO)">
@@ -233,7 +233,7 @@ _Sent via Growth Marketer Portal Pipeline._`;
                     key={budgetOption}
                     className={`flex items-center gap-3 p-4 rounded-xl border cursor-pointer transition-all ${
                       formData.marketingBudget === budgetOption
-                        ? "border-amber-500 bg-amber-50/50 text-neutral-900 font-semibold"
+                        ? "border-emerald-500 bg-emerald-50/50 text-neutral-900 font-semibold"
                         : "border-neutral-200 bg-white text-neutral-600 hover:bg-neutral-100/50"
                     }`}
                   >
@@ -245,7 +245,7 @@ _Sent via Growth Marketer Portal Pipeline._`;
                       onChange={() =>
                         updateField("marketingBudget", budgetOption)
                       }
-                      className="accent-amber-500 w-4 h-4"
+                      className="accent-emerald-500 w-4 h-4"
                     />
                     <span className="text-sm">{budgetOption}</span>
                   </label>
@@ -273,7 +273,7 @@ _Sent via Growth Marketer Portal Pipeline._`;
               disabled={!isStepValid()}
               className={`flex items-center gap-2 px-6 py-3 font-bold text-sm rounded-xl transition-all shadow-md active:scale-95 ${
                 isStepValid()
-                  ? "bg-amber-500 hover:bg-amber-400 text-neutral-900"
+                  ? "bg-emerald-500 hover:bg-emerald-400 text-neutral-900"
                   : "bg-neutral-200 text-neutral-400 cursor-not-allowed shadow-none"
               }`}
             >

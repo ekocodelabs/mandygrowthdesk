@@ -16,7 +16,7 @@ import { HiSparkles } from "react-icons/hi2";
 /**
  * Service & Growth Engine Framework Component
  * SEO Focus: "Full-funnel growth engine architecture" & "Paid acquisition scaling"
- * Theme: Deep Yellow (#F59E0B / #D97706), Crisp Whites, Dark Charcoal accents.
+ * Theme: Light Green Neon (#34D399 / #A3E635), Crisp Whites, Dark Charcoal accents.
  */
 
 interface ServicePillar {
@@ -107,24 +107,24 @@ export default function ServicesLayout() {
       {/* Background Glows */}
       <div
         aria-hidden="true"
-        className="pointer-events-none absolute top-1/4 right-0 h-125 w-125 rounded-full bg-amber-400/10 blur-[140px]"
+        className="pointer-events-none absolute top-1/4 right-0 h-125 w-125 rounded-full bg-emerald-400/10 blur-[140px]"
       />
       <div
         aria-hidden="true"
-        className="pointer-events-none absolute bottom-0 left-0 h-112.5 w-112.5 rounded-full bg-yellow-500/10 blur-[130px]"
+        className="pointer-events-none absolute bottom-0 left-0 h-112.5 w-112.5 rounded-full bg-lime-300/10 blur-[130px]"
       />
 
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         {/* Section Header */}
         <div className="mx-auto max-w-3xl text-center">
-          {/* <div className="inline-flex items-center gap-2 rounded-full border border-amber-300 bg-amber-50 px-4 py-1.5 text-xs sm:text-sm font-bold text-amber-900 shadow-sm">
-            <HiSparkles className="h-4 w-4 text-amber-600" />
+          {/* <div className="inline-flex items-center gap-2 rounded-full border border-emerald-300 bg-emerald-50 px-4 py-1.5 text-xs sm:text-sm font-bold text-emerald-900 shadow-sm">
+            <HiSparkles className="h-4 w-4 text-emerald-600" />
             <span>Tested & Proven Playbook</span>
           </div> */}
 
           <h2 className="mt-6 text-3xl font-extrabold tracking-tight text-neutral-900 sm:text-4xl md:text-5xl leading-tight">
             The Full-Funnel{" "}
-            <span className="text-amber-600 underline decoration-amber-400 decoration-wavy underline-offset-8">
+            <span className="text-emerald-600 underline decoration-emerald-400 decoration-wavy underline-offset-8">
               Growth Engine
             </span>{" "}
             Framework
@@ -150,7 +150,7 @@ export default function ServicesLayout() {
                   onClick={() => setActiveTab(service.id)}
                   className={`group relative cursor-pointer rounded-2xl border p-6 transition-all duration-300 ${
                     isActive
-                      ? "border-amber-400 bg-amber-50/40 shadow-xl shadow-amber-500/5 ring-1 ring-amber-400/50"
+                      ? "border-emerald-400 bg-emerald-50/40 shadow-xl shadow-emerald-500/5 ring-1 ring-emerald-400/50"
                       : "border-neutral-200 bg-white hover:border-neutral-300 hover:bg-neutral-50/60"
                   }`}
                 >
@@ -160,8 +160,8 @@ export default function ServicesLayout() {
                       <div
                         className={`flex h-12 w-12 shrink-0 items-center justify-center rounded-xl transition-colors ${
                           isActive
-                            ? "bg-amber-500 text-slate-950 shadow-md"
-                            : "bg-neutral-100 text-neutral-700 group-hover:bg-amber-100 group-hover:text-amber-800"
+                            ? "bg-emerald-500 text-slate-950 shadow-md"
+                            : "bg-neutral-100 text-neutral-700 group-hover:bg-emerald-100 group-hover:text-emerald-800"
                         }`}
                       >
                         <Icon className="h-6 w-6" />
@@ -169,7 +169,7 @@ export default function ServicesLayout() {
 
                       <div>
                         <div className="flex items-center gap-2">
-                          <span className="text-xs font-black text-amber-600">
+                          <span className="text-xs font-black text-emerald-600">
                             {service.id}
                           </span>
                           <span className="rounded-md bg-neutral-100 px-2 py-0.5 text-[10px] font-bold text-neutral-600 uppercase tracking-wider">
@@ -185,7 +185,7 @@ export default function ServicesLayout() {
                     <FaArrowRight
                       className={`h-4 w-4 transition-transform duration-300 ${
                         isActive
-                          ? "text-amber-600 translate-x-1"
+                          ? "text-emerald-600 translate-x-1"
                           : "text-neutral-400 group-hover:translate-x-0.5"
                       }`}
                     />
@@ -210,7 +210,7 @@ export default function ServicesLayout() {
                           key={idx}
                           className="inline-flex items-center gap-1.5 rounded-lg bg-white px-3 py-1.5 text-xs font-semibold text-neutral-800 border border-neutral-200 shadow-2xs"
                         >
-                          <FaCheck className="h-3 w-3 text-amber-500" />
+                          <FaCheck className="h-3 w-3 text-emerald-500" />
                           <span>{item}</span>
                         </div>
                       ))}
@@ -225,7 +225,7 @@ export default function ServicesLayout() {
           <div className="lg:col-span-5 flex justify-center lg:sticky lg:top-28">
             <div className="relative w-full max-w-sm sm:max-w-md">
               {/* Outer Glowing Accent ring */}
-              <div className="absolute -inset-1.5 rounded-3xl bg-linear-to-b from-amber-400 via-amber-500 to-amber-600 opacity-20 blur-xl" />
+              <div className="absolute -inset-1.5 rounded-3xl bg-linear-to-b from-emerald-400 via-emerald-500 to-lime-500 opacity-20 blur-xl" />
 
               {/* Main Vertical Video Container */}
               <div className="relative aspect-9/16 w-full overflow-hidden rounded-3xl bg-neutral-950 shadow-2xl ring-1 ring-neutral-900/10">
@@ -251,7 +251,7 @@ export default function ServicesLayout() {
                   aria-label={
                     isPlaying ? "Pause Framework Video" : "Play Framework Video"
                   }
-                  className="absolute top-4 right-4 z-20 flex h-10 w-10 items-center justify-center rounded-full bg-neutral-900/70 text-white backdrop-blur-md transition hover:bg-amber-500 hover:text-slate-950"
+                  className="absolute top-4 right-4 z-20 flex h-10 w-10 items-center justify-center rounded-full bg-neutral-900/70 text-white backdrop-blur-md transition hover:bg-emerald-500 hover:text-slate-950"
                 >
                   {isPlaying ? (
                     <FaPause className="h-4 w-4" />
@@ -262,7 +262,7 @@ export default function ServicesLayout() {
 
                 {/* Top Badge Overlay */}
                 <div className="absolute top-4 left-4 z-10">
-                  <span className="inline-flex items-center gap-1.5 rounded-full bg-amber-500/90 px-3 py-1 text-xs font-bold text-slate-950 backdrop-blur-md shadow-md">
+                  <span className="inline-flex items-center gap-1.5 rounded-full bg-emerald-500/90 px-3 py-1 text-xs font-bold text-slate-950 backdrop-blur-md shadow-md">
                     <HiSparkles className="h-3.5 w-3.5" />
                     <span>Framework Walkthrough</span>
                   </span>
@@ -271,7 +271,7 @@ export default function ServicesLayout() {
                 {/* Bottom Overlay Info Banner */}
                 <div className="absolute bottom-5 left-5 right-5 z-10">
                   <div className="rounded-2xl border border-white/10 bg-neutral-900/90 p-4 shadow-2xl backdrop-blur-md">
-                    <p className="text-xs font-semibold text-amber-400 uppercase tracking-wider">
+                    <p className="text-xs font-semibold text-emerald-400 uppercase tracking-wider">
                       Execution Blueprint
                     </p>
                     <p className="mt-1 text-sm font-bold text-white leading-snug">
@@ -280,8 +280,8 @@ export default function ServicesLayout() {
                     </p>
 
                     <a
-                      href="#consultation"
-                      className="mt-3 flex items-center justify-center gap-2 rounded-xl bg-amber-500 py-2.5 text-xs font-extrabold text-slate-950 transition hover:bg-amber-400"
+                      href="/#contact"
+                      className="mt-3 flex items-center justify-center gap-2 rounded-xl bg-emerald-500 py-2.5 text-xs font-extrabold text-slate-950 transition hover:bg-emerald-400"
                     >
                       <span>Deploy This Framework</span>
                       <FaArrowRight className="h-3 w-3" />

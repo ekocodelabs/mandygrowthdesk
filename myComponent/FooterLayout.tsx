@@ -14,7 +14,7 @@ export default function FooterLayout() {
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-6">
         {/* Footprint Corporate Branding Block */}
         <div className="flex items-center gap-2">
-          <span className="w-2 h-2 rounded-full bg-amber-500" />
+          <span className="w-2 h-2 rounded-full bg-emerald-500" />
           <span className="font-extrabold text-sm tracking-widest text-neutral-900 uppercase">
             Growth.Desk
           </span>

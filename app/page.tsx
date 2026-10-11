@@ -8,6 +8,7 @@ import CasestudyLayout from "@/myComponent/CasestudyLayout";
 import NavbarLayout from "@/myComponent/NavbarLayout";
 import FooterLayout from "@/myComponent/FooterLayout";
 import ContactLayout from "@/myComponent/ContactLayout";
+import GrowthContentLayout from "@/myComponent/GrowthContentLayout";
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
       <AboutLayout />
       <ServicesLayout />
       <GrowthCalculatorLayout />
+      <GrowthContentLayout />
       <CasestudyLayout />
       <MultiLeadFormLayout />
       <ContactLayout />
