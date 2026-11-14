@@ -168,7 +168,7 @@ export default function HeaderLayout() {
               <div className="relative group aspect-9/16 w-full overflow-hidden rounded-2xl bg-neutral-100 shadow-2xl ring-1 ring-neutral-900/10 mt-8 sm:mt-12 transition-transform duration-500 hover:-translate-y-1">
                 {/* Next.js Optimized Image Component */}
                 <Image
-                  src="/assets/profilephoto.jpeg"
+                  src="/assets/bannerprofile.jpg"
                   alt="Growth marketer profile portrait"
                   fill
                   sizes="(max-width: 768px) 50vw, 25vw"
