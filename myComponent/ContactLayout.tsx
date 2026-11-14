@@ -33,8 +33,8 @@ export default function ContactChannels() {
     {
       name: "WhatsApp",
       label: "Instant Strategy Link",
-      value: "+234 818 535 0499",
-      href: "https://wa.me/2348185350499",
+      value: "+234 808 844 9647",
+      href: "https://wa.me/2348088449647",
       icon: <FiMessageCircle className="text-xl text-emerald-600" />,
       bgClass: "hover:border-emerald-500/40 hover:bg-emerald-50/10",
     },
